@@ -18,7 +18,7 @@ public:
                 end--;
                 continue;
             }
-            if (tolower(s[start]) != tolower(s[end])) // pehle dono character ko lowercase mein convert karna hai and then compare karna hai
+            if (tolower(s[start]) != tolower(s[end])) // pehle dono character ko lowercase mein convert karna hai and then compare karna ha
             {
                 return false;
             }
