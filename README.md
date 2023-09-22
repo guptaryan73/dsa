@@ -1,6 +1,6 @@
 # dsa
 
-Data Structures and Algorithms (DSA) Learning Repository
+
 Welcome to the Data Structures and Algorithms (DSA) Learning Repository! This repository is dedicated to helping you master essential DSA concepts and implementations. Whether you're a beginner looking to learn the basics or an experienced coder aiming to sharpen your skills, this repository is designed to be a valuable resource for your journey.
 
 Table of Contents
@@ -10,20 +10,12 @@ Getting Started
 Contributing
 Feedback
 License
+
 Introduction
 In this repository, you will find various DSA implementations, explanations, and examples that I have learned and collected. My goal is to continuously update and expand this repository to cover a wide range of DSA topics.
 
 Contents
-The repository is organized into different directories, each dedicated to a specific DSA topic. Here's an overview of what you can expect to find:
-
-Array: Implementations and explanations related to arrays.
-Linked List: Data structures and algorithms related to linked lists.
-Stack: Stack data structure and relevant algorithms.
-Queue: Queue data structure and relevant algorithms.
-Trees: Binary trees, binary search trees, and tree traversal algorithms.
-Sorting Algorithms: Various sorting algorithms like quicksort, mergesort, etc.
-Searching Algorithms: Different searching algorithms like binary search, linear search, etc.
-Please explore these directories to access the code implementations, explanations, and examples.
+The repository is organized into different directories, each dedicated to a specific DSA topic.
 
 Getting Started
 To get started with this repository, you can simply clone it to your local machine using the following command:
