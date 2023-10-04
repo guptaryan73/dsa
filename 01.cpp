@@ -2,7 +2,7 @@
 
 pseudocode / alogorithm --> program ko kaise solve karge, un steps ko point wise english mein likhta ja point wise
 
-terminators --> used to start/end the program
+terminators --> they are used to start/end the program
 
 e.g. i is not equal to 0 is written as i! = 0
 
