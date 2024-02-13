@@ -2,6 +2,8 @@
 
 /* binary search use karenge */
 
+/* complexity is O(log(row*col)) as binary search ki complexity O(log(n)) hai */
+
 bool searchMatrix(vector<vector<int>> &matrix, int target)
 {
     int row = matrix.size();
@@ -18,7 +20,7 @@ bool searchMatrix(vector<vector<int>> &matrix, int target)
             int element = matrix[mid / col][mid % col]; /* using this as 2d array mein seedha matrix[mid] nahin use kar peyenge so mid/col gives the row index and mid % col gives the col index */
             if (element == target)
             {
-                return true;
+                return true; 
             }
             else if (element < target)
             {
