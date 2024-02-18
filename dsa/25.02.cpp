@@ -1,4 +1,9 @@
-/* pointer - stores address */
+/* pointer - stores address 
+
+& -> address of
+* -> value at 
+
+*/
 
 #include <iostream>
 #include <string>
