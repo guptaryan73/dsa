@@ -1,5 +1,3 @@
-/* continue from */
-
 /* modulo properties
 
 (a+b) % m = a % m +b % m
