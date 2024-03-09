@@ -1,5 +1,3 @@
-/* continue from 15:00 */
-
 /* pass by reference */
 
 #include <iostream>
