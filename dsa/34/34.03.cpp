@@ -1,4 +1,3 @@
-/* start from 20:00 */
 /* a to the power b using recursion */
 
 #include <iostream>
@@ -19,17 +18,13 @@ int calculator(int base, int power)
     {
         return base;
     }
-
-
     // recursive relation
-    return base * calculator(base, power-1);
-
-
+    return base * calculator(base, power - 1);
 }
 int main()
 {
     int base, power;
     cin >> base >> power;
-    calculator(base, power);
+    cout << calculator(base, power);
     return 0;
 }
