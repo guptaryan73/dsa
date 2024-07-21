@@ -1,7 +1,7 @@
 /* Search In Rotated Sorted Array */
 
 /*
-e.g. 79123 , here  we will first find pivot element and then dekhenge , agar desired element pivoto se right wali section mein hoga then us section mein binary search laga denge i.e 1,2,3 and agar dusri wali section mein hoga then udhr laga denge i.e. 7,9
+e.g. 79123 , here  we will first find pivot element and then dekhenge , agar desired element pivot se right wali section mein hoga then us section mein binary search laga denge i.e 1,2,3 and agar dusri wali section mein hoga then udhr laga denge i.e. 7,9
 
 if arr[pivot] <= target <= arr[n-1] then binary search 1,2,3 wali side pe laga denge warna 7,9 wali side pe laga denge
 */
@@ -33,9 +33,9 @@ int getPivot(vector<int> &arr, int size) // first find pivot element
 
 int binarySearch(vector<int> &arr, int start, int end, int key)
 {
-    // int start = start;
-    // int end = end;
-    int mid = (start + end) / 2; // should write as start + (end - start)/2 in case start and end ki value kafi badi hain and     start+end int ki range se bahar na ho jaye
+    int start = start;
+    int end = end;
+    int mid = end + (end - start) / 2; // should write as start + (end - start)/2 in case start and end ki value kafi badi hain and start + end int ki range se bahar na ho jaye
 
     while (start <= end)
     {
@@ -65,7 +65,6 @@ int binarySearch(vector<int> &arr, int start, int end, int key)
 
 int main()
 {
-    vector<int> arr = {8, 10, 17, 1, 3};
     int size = arr.size();
     int key = 10; // Change this to the key you want to search for
     int pivot = getPivot(arr, size);

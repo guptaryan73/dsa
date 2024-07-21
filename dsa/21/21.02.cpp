@@ -8,7 +8,7 @@ public:
         int count = 0, n = nums.size(); // count batayega ki kitne aise pairs hain jahan nums[i - 1] > nums[i]
         for (int i = 1; i < n; i++)
         {
-            if (nums[i - 1] > nums[i]) // pura array mein pichle wale element ko aage wale se compare akrenge
+            if (nums[i - 1] > nums[i]) // pura array mein pichle wale element ko aage wale se compare karenge
             {
                 count++;
             }
